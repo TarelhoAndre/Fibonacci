@@ -1,0 +1,10 @@
+a = eval(input("Digite um número"))
+b=[0,1]
+f= 0
+while f < a:
+    f = b[-1] + b[-2]
+    b.append(f)
+if a in b:
+    print("o número pertence a sequencia")
+else:
+    print("o número não pertence a sequencia")
