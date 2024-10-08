@@ -1,0 +1,9 @@
+a = str.lower(input("Escreva uma palavra ou uma frase para verificar "))
+if "a" in a:
+    print("A letra A pertence a string")
+else:
+    print("A letra A não pertence a string")
+
+b = a.count("a")
+
+print("A string contém", b, "letras A")
